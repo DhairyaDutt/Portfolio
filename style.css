@@ -82,7 +82,9 @@ body{
 
 /* Profile Styling */
 
-#profile h2{
+
+/* Common h2 h3 styling */
+h2{
     font-size: 3.5rem;
     text-align: center;
 
@@ -90,7 +92,7 @@ body{
 
 
 
-#profile h2,h3{
+h2,h3{
     font-weight: 300;
     color: #A8DADC;
 }
@@ -113,4 +115,10 @@ hr{
     width: 100%;
     max-width: 246px;
     height: auto;
+}
+
+.quotes{
+    text-align: center;
+    color: #727878;
+
 }
