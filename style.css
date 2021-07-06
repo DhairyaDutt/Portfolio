@@ -14,11 +14,13 @@ body{
 
 /* Common h2 h3 styling */
 h2{
-    font-size: 3.5rem;
+    font-size: 5rem;
     text-align: center;
-
 }
 
+h3{
+    font-size: 3rem;
+}
 
 
 h2,h3{
@@ -49,10 +51,13 @@ hr{
 
 /* Navbar Styling */
 
+#nb1 .navbar-brand{
+    font-size: 2.5rem;
+}
 
 #nb1 .nav-link{
     color: #A8DADC;
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 #nb1 .nav-link:hover{
@@ -79,7 +84,7 @@ hr{
 }
 
 .jumbotron .container h1{
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 700;
     padding-bottom: 15px;
     border-bottom: 1px solid #FFFFFF;
@@ -88,7 +93,7 @@ hr{
 }
 
 .jumbotron p{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .jumbotron .container{
