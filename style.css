@@ -72,7 +72,7 @@ hr{
 /* Landing Page Styling */
 
 .jumbotron{
-    background: no-repeat center fixed url("background3.jpg");
+    background: no-repeat center fixed url("./images/background3.jpg");
     background-size: cover;
     height: 722px;
     color: #A8DADC;
@@ -259,7 +259,6 @@ figcaption h3 {
   font-weight: 400;
   color: #f3b204;
   position: relative;
-  righ: 100%;
   font-size: 30px;
 }
 figcaption p {
@@ -287,4 +286,19 @@ figure:hover img{
 }
 figure:hover h3, figure:hover p {
   left: 0px;
+}
+
+#projects .col-md-6{
+    padding-top: 5rem;
+    padding-right: 3rem;;
+}
+
+/* Contacts */
+
+.contact-background{
+    background: #434242;
+}
+
+#contact{
+    padding-bottom: 20rem;
 }
