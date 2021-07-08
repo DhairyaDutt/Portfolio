@@ -47,6 +47,13 @@ hr{
     background: #FFFFFF;
 }
 
+/* common container padding */
+.container{
+    padding: 40px 180px;
+}
+
+
+
 /* ************************************************************************************************************ */
 
 /* Navbar Styling */
@@ -74,14 +81,12 @@ hr{
 .jumbotron{
     background: no-repeat center fixed url("./images/background3.jpg");
     background-size: cover;
-    height: 722px;
+    height: 100vh;
     color: #A8DADC;
+    margin-bottom: 0;
 
 }
 
-.container{
-    padding: 40px 180px;
-}
 
 .jumbotron .container h1{
     font-size: 7rem;
@@ -101,7 +106,7 @@ hr{
     top: 28%;
     z-index: 4;
     text-align: center;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 .jumbotron .overlay{
@@ -123,8 +128,10 @@ hr{
 
 #profile img{
     width: 100%;
-    max-width: 246px;
-    height: auto;
+    max-width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 10px solid #F1FAEE;
 }
 
 .quotes{
@@ -218,7 +225,7 @@ ul.no-bullets {
  } */
 
  figure {
-    font-family: 'Open sans';
+    /* font-family: 'Open sans'; */
   margin: 0;
   padding: 0;
   height: 300px;
@@ -302,3 +309,10 @@ figure:hover h3, figure:hover p {
 #contact{
     padding-bottom: 20rem;
 }
+
+#contact a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
