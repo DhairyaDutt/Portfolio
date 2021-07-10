@@ -1,5 +1,5 @@
 html, body{
-    color: #434242;
+    /* color: #434242; */
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
 }
@@ -7,7 +7,7 @@ html, body{
 body{
     
     font-size: 15px;
-    background: #F1FAEE;
+    background: #FCBF49;
     line-height: 1.64;
     margin: 0;
 }
@@ -25,7 +25,7 @@ h3{
 
 h2,h3{
     font-weight: 300;
-    color: #A8DADC;
+    color: #EAE2B7;
 }
 
 /* quote class is frequently used */
@@ -155,7 +155,7 @@ hr{
 .experience .experience-details{
     display: block;
     margin-top: 6px;
-    color: #A8DADC;
+    color: #EAE2B7;
 }
 
 .glyphicon{
@@ -170,7 +170,7 @@ hr{
 }
 
 .experience-details a{
-    color: #A8DADC;
+    color: #EAE2B7;
 }
 
 ul.no-bullets {
@@ -315,4 +315,18 @@ figure:hover h3, figure:hover p {
     font-size: 1.5rem;
 }
 
+#contact .socials{
+    display: flex;
+    justify-content: center;
+}
 
+#contact .socials a{
+    padding: 4rem 2rem;
+    text-decoration: none;
+    color: red;
+}
+
+#contact .socials a:hover{
+    color: rgba(255, 0, 0, 0.596);
+    transition: 0.3s;
+}
