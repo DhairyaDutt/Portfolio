@@ -7,31 +7,38 @@ html, body{
 body{
     
     font-size: 15px;
-    background: #FCBF49;
+    background: #dbdbdb;
     line-height: 1.64;
     margin: 0;
 }
 
 /* Common h2 h3 styling */
 h2{
-    font-size: 5rem;
+    font-size: 7rem;
     text-align: center;
 }
 
 h3{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 
 h2,h3{
     font-weight: 300;
-    color: #EAE2B7;
+    color: 	#8b2323;
 }
 
 /* quote class is frequently used */
 .quote{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+
+}
+
+.quotes{
+    text-align: center;
+    color: #727878;
+    font-size: 2rem;
 }
 
 /* hr element is frequrntly used */
@@ -63,16 +70,16 @@ hr{
 }
 
 #nb1 .nav-link{
-    color: #A8DADC;
+    color: white;
     font-size: 2rem;
 }
 
 #nb1 .nav-link:hover{
-    color: #457B9D;
+    color: #8b2323;
 }
 
 .navbar.scrolled {
-    background: #1D3557;
+    background: #292929;
     transition: background 500ms;
 }
 
@@ -82,7 +89,7 @@ hr{
     background: no-repeat center fixed url("./images/background3.jpg");
     background-size: cover;
     height: 100vh;
-    color: #A8DADC;
+    color: white;
     margin-bottom: 0;
 
 }
@@ -110,13 +117,14 @@ hr{
 }
 
 .jumbotron .overlay{
-    background-color: #E63946;
+    background-color: #D12531;
+    /* background-color: #E63946; */
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    opacity: 0.5;
+    opacity: 0.4;
     z-index: 2;
 }
 
@@ -131,14 +139,10 @@ hr{
     max-width: 220px;
     height: 220px;
     border-radius: 50%;
-    border: 10px solid #F1FAEE;
+    border: 10px solid #dbdbdb;
 }
 
-.quotes{
-    text-align: center;
-    color: #727878;
 
-}
 
 /* Experience section */
 
@@ -155,7 +159,7 @@ hr{
 .experience .experience-details{
     display: block;
     margin-top: 6px;
-    color: #EAE2B7;
+    color: #8b2323;
 }
 
 .glyphicon{
@@ -170,7 +174,7 @@ hr{
 }
 
 .experience-details a{
-    color: #EAE2B7;
+    color: #8b2323;
 }
 
 ul.no-bullets {
@@ -200,7 +204,7 @@ ul.no-bullets {
 }
 
 #abilities ul > li .ability-score .glyphicon.filled {
-    color: #22A39F;
+    color: #8b2323;
 }
 
 #abilities ul > li .ability-score .glyphicon {
@@ -255,7 +259,7 @@ figcaption {
   height: 100%;
   width: 100%;
   top: 250px;
-  background: rgba(255,0,0,.5);
+  background: #292929b6;
   color: #fff;
 
 }
@@ -264,7 +268,7 @@ figcaption h3,figcaption p{
 }
 figcaption h3 {
   font-weight: 400;
-  color: #f3b204;
+  color: rgb(192, 5, 5);
   position: relative;
   font-size: 30px;
 }
@@ -276,12 +280,21 @@ figcaption p {
   font-size: 13px;
 }
 figcaption a {
-  color: #fff;
+  color: #ffffff;
   border: 2px solid #fff;
   padding: 4px 10px;
   text-decoration: none;
     background: transparent;
+} 
+
+figcaption a:hover{
+    text-decoration: none;
+    color: #8b2323;
+    border:2px solid #8b2323;
+    transition: 0.3s;
 }
+
+
 figure:hover figcaption {
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   filter: alpha(opacity=100);
@@ -310,6 +323,10 @@ figure:hover h3, figure:hover p {
     padding-bottom: 20rem;
 }
 
+#contact h2{
+    color: #ffffff;
+}
+
 #contact a{
     text-decoration: none;
     font-size: 1.5rem;
@@ -323,10 +340,14 @@ figure:hover h3, figure:hover p {
 #contact .socials a{
     padding: 4rem 2rem;
     text-decoration: none;
-    color: red;
+    color: #ffffff;
 }
 
 #contact .socials a:hover{
     color: rgba(255, 0, 0, 0.596);
     transition: 0.3s;
+}
+
+#contact .quotes{
+    color: white;
 }
