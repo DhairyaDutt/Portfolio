@@ -2,6 +2,7 @@ html, body{
     /* color: #434242; */
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
+    text-decoration: none;
 }
 
 body{
@@ -293,6 +294,14 @@ figcaption a:hover{
     border:2px solid #8b2323;
     transition: 0.3s;
 }
+
+/* figcaption a:visited{
+    color: #ffffff;
+    border: 2px solid #fff;
+    padding: 4px 10px;
+    text-decoration: none;
+    background: transparent;
+} */
 
 
 figure:hover figcaption {
