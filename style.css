@@ -3,6 +3,7 @@ html, body{
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -63,6 +64,17 @@ hr{
 
 
 /* ************************************************************************************************************ */
+
+/* Scroll Top button */
+.scrollTop{
+    background-color: #292929;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+
+    position: fixed;
+}
+
 
 /* Navbar Styling */
 
