@@ -99,6 +99,9 @@ hr{
 }
 
 
+
+
+
 /* Navbar Styling */
 
 #nb1 .navbar-brand{
@@ -138,7 +141,35 @@ hr{
     border-bottom: 1px solid #FFFFFF;
     border-bottom-color: rgba(255,255,255,0.35);
     display: inline-block;
+    
 }
+
+
+/* Animations */
+
+/* .typingEffect{
+    position: relative;
+}
+
+.typingEffect::after{
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: white;
+    background:#D12531;
+    opacity: 0.4;
+    animation: typing 4s steps(13) forwards,
+      caret 1s infinite;
+}
+
+@keyframes typing {
+	to { width: 0 }
+}
+@keyframes caret {
+	50% { color: transparent }
+} */
+
 
 .jumbotron p{
     font-size: 3rem;
@@ -149,12 +180,11 @@ hr{
     top: 28%;
     z-index: 4;
     text-align: center;
-    /* max-width: 100%; */
+
 }
 
 .jumbotron .overlay{
     background-color: #D12531;
-    /* background-color: #E63946; */
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -352,7 +382,7 @@ figure:hover h3, figure:hover p {
   left: 0px;
 }
 
-#projects .col-md-6{
+#projects .col-lg-6{
     padding-top: 5rem;
     padding-right: 3rem;;
 }
@@ -394,4 +424,24 @@ figure:hover h3, figure:hover p {
 
 #contact .quotes{
     color: white;
+}
+
+/* Media Queries */
+
+@media (max-width:990px){
+    #profile .col-lg-4{
+        text-align: center;
+    }
+
+    #profile img{
+        margin: 2rem 0;
+    }
+
+    #experience .col-lg-8{
+        padding-bottom: 2rem;
+    }
+
+    #projects .col-lg-6{
+        padding: 3rem 0;
+    }
 }
