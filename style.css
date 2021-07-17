@@ -54,6 +54,8 @@ hr{
 /* Section which has white background */
 .white_background{
     background: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 
 /* common container padding */
@@ -144,31 +146,6 @@ hr{
     
 }
 
-
-/* Animations */
-
-/* .typingEffect{
-    position: relative;
-}
-
-.typingEffect::after{
-    content: "|";
-    position: absolute;
-    right: 0;
-    width: 100%;
-    color: white;
-    background:#D12531;
-    opacity: 0.4;
-    animation: typing 4s steps(13) forwards,
-      caret 1s infinite;
-}
-
-@keyframes typing {
-	to { width: 0 }
-}
-@keyframes caret {
-	50% { color: transparent }
-} */
 
 
 .jumbotron p{
@@ -444,4 +421,61 @@ figure:hover h3, figure:hover p {
     #projects .col-lg-6{
         padding: 3rem 0;
     }
+    
+
+}
+
+@media (max-width:768px){
+
+    .container{
+        padding: 3rem 0;
+    }
+
+    .quotes .quote{
+        font-size: 1.5rem;
+    }
+
+    #landing h1{
+        font-size: 6rem;
+    }
+
+    #landing p{
+        display: none;
+    }
+
+    #profile .row p{
+        padding: 0 4rem;
+    }
+
+    #experience{
+        padding: 0 4rem;
+    }
+
+    .white_background{
+        padding: 0 4rem;
+    }
+
+
+    /* #projects .col-lg-6{
+        padding-left: 11rem;
+        padding-right: 9rem;
+    } */
+    
+    .isFlex1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .isFlex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .heading{
+        font-size: 6rem;
+    }
+}
+
+@media (max-width:480px){
+
 }
