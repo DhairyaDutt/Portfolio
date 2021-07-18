@@ -1,5 +1,4 @@
 html, body{
-    /* color: #434242; */
     font-family: 'Roboto', sans-serif !important;
     height: 100%;
     text-decoration: none;
@@ -12,9 +11,11 @@ body{
     background: #dbdbdb;
     line-height: 1.64;
     margin: 0;
+    overflow-x: hidden;
 }
 
 /* Common h2 h3 styling */
+
 h2{
     font-size: 7rem;
     text-align: center;
@@ -48,7 +49,7 @@ hr{
     margin: 40px 0px;
     border-color: #727878;
     opacity: 0.2;
-    height: 0;;
+    height: 0;
 }
 
 /* Section which has white background */
@@ -56,6 +57,7 @@ hr{
     background: #FFFFFF;
     padding: 0;
     margin: 0;
+    /* width: 590px; */
 }
 
 /* common container padding */
@@ -428,7 +430,7 @@ figure:hover h3, figure:hover p {
 @media (max-width:768px){
 
     .container{
-        padding: 3rem 0;
+        padding: 2rem;
     }
 
     .quotes .quote{
@@ -476,6 +478,9 @@ figure:hover h3, figure:hover p {
     }
 }
 
-@media (max-width:480px){
+@media (max-width:576px){
+    .jumbotron{
+        height: 100vh;
+    }
 
 }
