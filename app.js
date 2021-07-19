@@ -16,9 +16,22 @@ function handleScroll() {
 function scrollToTop() {
   // Scroll to top logic
   rootElement.scrollTo({
-    top: 0,
+    top: 100,
     behavior: "smooth"
   })
 }
 scrollToTopBtn.addEventListener("click", scrollToTop)
 document.addEventListener("scroll", handleScroll)
+
+
+
+
+
+
+$(function(){
+  $(document).scroll(function(){
+      var $nav = $("#nb1");
+      $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+
+  });
+});
