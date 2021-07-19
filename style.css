@@ -412,7 +412,7 @@ figure:hover h3, figure:hover p {
 
 /* Media Queries */
 
-@media (max-width:990px){
+@media only screen and (max-width: 990px){
     #profile .col-lg-4{
         text-align: center;
     }
@@ -432,7 +432,7 @@ figure:hover h3, figure:hover p {
 
 }
 
-@media (max-width:768px){
+@media only screen and (max-width: 768px){
 
     .scrollTop{
         display: none;
@@ -487,7 +487,7 @@ figure:hover h3, figure:hover p {
     }
 }
 
-@media (max-width:468px){
+@media only screen and (max-width: 480px){
     
     .heading{
         font-size: 4.5rem;
