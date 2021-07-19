@@ -164,6 +164,7 @@ hr{
 
 .jumbotron .overlay{
     background-color: #D12531;
+    height: 100vh;
     position: absolute;
     top: 0px;
     bottom: 0px;
