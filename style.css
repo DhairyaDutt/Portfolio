@@ -438,6 +438,14 @@ figure:hover h3, figure:hover p {
         display: none;
     }
 
+    .jumbotron .container{
+        position: relative;
+        top: 28%;
+        z-index: 4;
+        text-align: center;
+    
+    }
+
     .container{
         padding: 2rem;
     }
