@@ -366,6 +366,11 @@ figure:hover h3, figure:hover p {
     padding-right: 3rem;;
 }
 
+#projects figure img{
+    width: 400px;
+    height: 300px;
+}
+
 /* Contacts */
 
 .contact-background{
@@ -442,7 +447,7 @@ figure:hover h3, figure:hover p {
     }
 
     #landing p{
-        display: none;
+        font-size: 2.5rem;
     }
 
     #profile .row p{
@@ -478,9 +483,24 @@ figure:hover h3, figure:hover p {
     }
 }
 
-@media (max-width:576px){
-    .jumbotron{
-        height: 100vh;
+@media (max-width:468px){
+    
+    body{
+        font-size: 13px;
     }
+
+    .heading{
+        font-size: 4.5rem;
+    }
+
+    h3{
+        font-size: 2.5rem;
+    }
+
+    #projects figure{
+        width: 300px;
+        height: 300px;
+    }
+
 
 }
