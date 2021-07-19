@@ -442,9 +442,18 @@ figure:hover h3, figure:hover p {
         padding: 2rem;
     }
 
+    .jumbotron{
+        background: no-repeat center url("./images/background3.jpg");
+        background-size: cover;
+        height: 100vh;
+        color: white;
+        margin-bottom: 0;
+    
+    }
+
     .jumbotron .container{
         position: relative;
-        /* top: 20%; */
+        top: 28%;
         z-index: 4;
         text-align: center;
     
@@ -455,11 +464,11 @@ figure:hover h3, figure:hover p {
     }
 
     #landing h1{
-        font-size: 6rem;
+        font-size: 3rem;
     }
 
     #landing p{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     #profile .row p{
