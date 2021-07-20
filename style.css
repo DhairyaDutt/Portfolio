@@ -471,15 +471,15 @@ figure:hover h3, figure:hover p {
     }
 
     .quotes .quote{
-        font-size: 1.5rem;
+        font-size: 6rem;
     }
 
     #landing h1{
-        font-size: 3rem;
+        font-size: 6rem;
     }
 
     #landing p{
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 
     #profile .row p{
