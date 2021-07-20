@@ -532,7 +532,7 @@ figure:hover h3, figure:hover p {
         background-color: #D12531;
         position:absolute;
         top: 0;
-        bottom: -58px;
+        bottom: 0;
         left: 0;
         right: 0;
         opacity: 0.4;
