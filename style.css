@@ -443,7 +443,7 @@ figure:hover h3, figure:hover p {
     }
 
     .jumbotron{
-        background: no-repeat center url("./images/background3.jpg");
+        background: no-repeat fixed center url("./images/background3.jpg");
         background-size: cover;
         height: 100vh;
         color: white;
@@ -455,7 +455,7 @@ figure:hover h3, figure:hover p {
         background-color: #D12531;
         position:absolute;
         top: 0;
-        bottom: -55px;
+        bottom: -53px;
         left: 0;
         right: 0;
         opacity: 0.4;
@@ -464,7 +464,7 @@ figure:hover h3, figure:hover p {
 
     .jumbotron .container{
         position: relative;
-        top: 28%;
+        /* top: 28%; */
         z-index: 4;
         text-align: center;
     
@@ -475,11 +475,11 @@ figure:hover h3, figure:hover p {
     }
 
     #landing h1{
-        font-size: 3rem;
+        font-size: 6rem;
     }
 
     #landing p{
-        font-size: 1.5rem;
+        font-size: 2.8rem;
     }
 
     #profile .row p{
