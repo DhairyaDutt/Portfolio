@@ -413,6 +413,11 @@ figure:hover h3, figure:hover p {
 /* Media Queries */
 
 @media only screen and (max-width: 990px){
+
+    .scrollTop{
+        display: none;
+    }
+
     #profile .col-lg-4{
         text-align: center;
     }
@@ -434,16 +439,14 @@ figure:hover h3, figure:hover p {
 
 @media only screen and (max-width: 768px){
 
-    .scrollTop{
-        display: none;
-    }
+    
 
     .container{
         padding: 2rem;
     }
 
     .jumbotron{
-        background: no-repeat fixed center url("./images/background3.jpg");
+        background: no-repeat center url("./images/background3.jpg");
         background-size: cover;
         height: 100vh;
         color: white;
@@ -455,7 +458,7 @@ figure:hover h3, figure:hover p {
         background-color: #D12531;
         position:absolute;
         top: 0;
-        bottom: -53px;
+        bottom: 0;
         left: 0;
         right: 0;
         opacity: 0.4;
@@ -524,6 +527,17 @@ figure:hover h3, figure:hover p {
     #landing p{
         font-size: 1.5rem;
     } */
+
+    .jumbotron .overlay{
+        background-color: #D12531;
+        position:absolute;
+        top: 0;
+        bottom: -62px;
+        left: 0;
+        right: 0;
+        opacity: 0.4;
+        z-index: 2;
+    }
 
     .heading{
         font-size: 4.5rem;
