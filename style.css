@@ -475,11 +475,11 @@ figure:hover h3, figure:hover p {
     }
 
     #landing h1{
-        font-size: 6rem;
+        font-size: 3rem;
     }
 
     #landing p{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 
     #profile .row p{
